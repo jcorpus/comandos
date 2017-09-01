@@ -30,6 +30,7 @@ $ more archivo.txt
 $ ls -lh
 ```
 -Alguas banderas para ls
+
 `ls -l`: lista los archivos con datos de cada nodo, ordenados alfabéticamente
 
 `ls -lS`: lista los contenidos ordenados por tamaño
