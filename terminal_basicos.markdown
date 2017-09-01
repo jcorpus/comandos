@@ -1,6 +1,14 @@
 Comandos basicos ubuntu
 -----------------------
 
+##### mkdir (crea un directorio)
+```bash
+$ mkdir micarpeta
+```
+##### rm (borra un archivo)
+```bash
+$ rm miarchivo.txt
+```
 ##### wc (Cuenta las lineas, palabras y caracteres que contiene un archivo)
 ```bash
 $ wc archivo.txt
@@ -67,4 +75,16 @@ $ top
 ```bash
 $ kill -9 id del proceso
 ```
-#####
+##### grep (buscar dentro de archivos)
+```bash
+$ grep palabra miarchivo
+```
+##### grep (otra forma de buscar seria combinando comados)
+```bash
+$ cat archivo.py |grep palabra 
+```
+##### grep (con la bandera -n nos dice en que linea se encuentra)
+```bash
+$ grep palabra archivo.php -n
+```
+#### 
