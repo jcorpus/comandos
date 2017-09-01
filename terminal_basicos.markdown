@@ -1,71 +1,70 @@
 Comandos basicos ubuntu
 -----------------------
 
-### wc (Cuenta las lineas, palabras y caracteres que contiene un archivo)
+##### wc (Cuenta las lineas, palabras y caracteres que contiene un archivo)
 ```bash
 $ wc archivo.txt
 ```
 
-### tail (Muestra las ultimas lineas de un archivo, por defecto las últimas 10)
+##### tail (Muestra las ultimas lineas de un archivo, por defecto las últimas 10)
 ```bash
 $ tail archivo.txt
 ```
 
-### more (muestra el contenido de un documento)
+##### more (muestra el contenido de un documento)
 ```bash
 $ more archivo.txt
 ```
 
-### ls-lh (lista lo que hay en un directorio con informacion legible para el humano xd)
+##### ls-lh (lista lo que hay en un directorio con informacion legible para el humano xd)
 
 ```bash
 $ ls -lh
 ```
-### pw (Dónde nos encontramos)
+##### pw (Dónde nos encontramos)
 ```bash
 $ pwd
 ```
 
-### mv (mover archivos en el directorio)
+##### mv (mover archivos en el directorio)
 ```bash
 $ mv imagen.png ../
 ```
 
-### cp (copiar archivos)
+##### cp (copiar archivos)
 ```bash
 $ cp archivo ./ruta
 ```
-### cat (parecido al more)
+##### cat (parecido al more)
 ```bash
 $ cat archivo.txt
 ```
 
-### touch (tocar archivos)
+##### touch (tocar archivos)
 ```bash
 $ touch nuevoarchivo
 ```
 
-### nano (editor de texto en la terminal)
+##### nano (editor de texto en la terminal)
 ```bash
 $ nano archivo.php
 ```
 
-### man (manual de los comandos)
+##### man (manual de los comandos)
 ```bash
 $ man ls
 ```
 
-### bc (calculadora en la terminal)
+##### bc (calculadora en la terminal)
 ```bash
 $ bc
 ```
-### top (Muestra los procesos en Linux)
+##### top (Muestra los procesos en Linux)
 ```bash
 $ top
 ```
-### kill (matar un proceso por el ID del proceso PID)
+##### kill (matar un proceso por el ID del proceso PID)
 ```bash
 $ kill -9 id del proceso
 ```
-
-### 
+#####
