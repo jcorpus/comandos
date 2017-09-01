@@ -1,4 +1,4 @@
-Comandos basicos ubuntu
+Comandos básicos Linux
 -----------------------
 
 ##### mkdir (crea un directorio)
@@ -29,6 +29,14 @@ $ more archivo.txt
 ```bash
 $ ls -lh
 ```
+-Alguas banderas
+    ls -l: lista los archivos con datos de cada nodo, ordenados alfabéticamente
+    ls -lS: lista los contenidos ordenados por tamaño
+ls -lh: lista los contenidos mostrando los datos legibles fácilmente (tamaño)
+ls -r: lista los archivos ordenados de forma inversa (sirve con las banderas S y t)
+ls -a: lista los contenidos de un directorio incluyendo los archivos ocultos
+
+
 ##### pw (Donde nos encontramos)
 ```bash
 $ pwd
@@ -100,5 +108,13 @@ $ curl -o contenido.html https://jcorpus.github.io
 ##### curl (descargar archivo original con curl -O)
 ```bash
 $ curl -O https://i.makeagif.com/media/2-07-2017/XJtC1y.gif
+```
+##### curl (peticiones get)
+```bash
+$ curl "https://httpbin.org/get?variable=hola"
+```
+**otro ejemplo de envio de datos por get**
+```bash
+$ curl --data "nombre=julio&apellido=corpus" http://httpbin.org/post
 ```
 
