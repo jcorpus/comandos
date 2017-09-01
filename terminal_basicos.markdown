@@ -1,10 +1,20 @@
 Comandos basicos ubuntu
 -----------------------
 
-### wc
+### wc (Cuenta las lineas, palabras y caracteres que contiene un archivo)
+```bash
+$ wc archivo.txt
+```
 
+### tail (Muestra las ultimas lineas de un archivo, por defecto las últimas 10)
+```bash
+$ tail archivo.txt
+```
 
 ### more (muestra el contenido de un documento)
+```bash
+$ more archivo.txt
+```
 
 ### ls-lh (lista lo que hay en un directorio con informacion legible para el humano xd)
 
@@ -12,6 +22,9 @@ Comandos basicos ubuntu
 $ ls -lh
 ```
 ### pw (Dónde nos encontramos)
+```bash
+$ pwd
+```
 
 ### mv (mover archivos en el directorio)
 ```bash
@@ -19,12 +32,23 @@ $ mv imagen.png ../
 ```
 
 ### cp (copiar archivos)
+```bash
+$ cp archivo ./ruta
+```
 ### cat (parecido al more)
+```bash
+$ cat archivo.txt
+```
 
 ### touch (tocar archivos)
+```bash
+$ touch nuevoarchivo
+```
 
-
-### nano
+### nano (editor de texto en la terminal)
+```bash
+$ nano archivo.php
+```
 
 ### man (manual de los comandos)
 ```bash
