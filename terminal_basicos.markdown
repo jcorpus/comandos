@@ -26,7 +26,22 @@ $ mv imagen.png ../
 
 ### nano
 
+### man (manual de los comandos)
+```bash
+$ man ls
+```
+
 ### bc (calculadora en la terminal)
 ```bash
 $ bc
 ```
+### top (Muestra los procesos en Linux)
+```bash
+$ top
+```
+### kill (matar un proceso por el ID del proceso PID)
+```bash
+$ kill -9 id del proceso
+```
+
+### 
