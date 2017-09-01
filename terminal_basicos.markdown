@@ -14,7 +14,7 @@ $ rm miarchivo.txt
 $ wc archivo.txt
 ```
 
-##### tail (Muestra las ultimas lineas de un archivo, por defecto las últimas 10)
+##### tail (Muestra las últimas lineas de un archivo, por defecto las últimas 10)
 ```bash
 $ tail archivo.txt
 ```
@@ -24,12 +24,12 @@ $ tail archivo.txt
 $ more archivo.txt
 ```
 
-##### ls-lh (lista lo que hay en un directorio con informacion legible para el humano xd)
+##### ls -lh (lista lo que hay en un directorio con información legible para el humano xd)
 
 ```bash
 $ ls -lh
 ```
-##### pw (Dónde nos encontramos)
+##### pw (Donde nos encontramos)
 ```bash
 $ pwd
 ```
@@ -87,4 +87,18 @@ $ cat archivo.py |grep palabra
 ```bash
 $ grep palabra archivo.php -n
 ```
-#### 
+cURL peticiones GET, POST
+-------------------------
+##### curl (peticiones HTTP/S)
+```bash
+$ curl https://jcorpus.github.io
+```
+**copiar contenido de una pagina en un archivo**
+```bash
+$ curl -o contenido.html https://jcorpus.github.io
+```
+##### curl (descargar archivo original con curl -O)
+```bash
+$ curl -O https://i.makeagif.com/media/2-07-2017/XJtC1y.gif
+```
+
