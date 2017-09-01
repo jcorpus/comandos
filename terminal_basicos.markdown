@@ -29,16 +29,16 @@ $ more archivo.txt
 ```bash
 $ ls -lh
 ```
--Alguas banderas
-ls -l: lista los archivos con datos de cada nodo, ordenados alfabéticamente
+-Alguas banderas para ls
+`ls -l`: lista los archivos con datos de cada nodo, ordenados alfabéticamente
 
-ls -lS: lista los contenidos ordenados por tamaño
+`ls -lS`: lista los contenidos ordenados por tamaño
 
-ls -lh: lista los contenidos mostrando los datos legibles fácilmente (tamaño)
+`ls -lh`: lista los contenidos mostrando los datos legibles fácilmente (tamaño)
 
-ls -r: lista los archivos ordenados de forma inversa (sirve con las banderas S y t)
+`ls -r`: lista los archivos ordenados de forma inversa (sirve con las banderas S y t)
 
-ls -a: lista los contenidos de un directorio incluyendo los archivos ocultos
+`ls -a`: lista los contenidos de un directorio incluyendo los archivos ocultos
 
 
 
