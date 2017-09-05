@@ -1,5 +1,7 @@
 Comandos básicos Linux
 -----------------------
+##### Actualizar ubuntu
+`sudo do-release-upgrade -d`
 
 ##### mkdir (crea un directorio)
 ```bash
