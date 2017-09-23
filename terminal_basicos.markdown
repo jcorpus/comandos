@@ -12,8 +12,6 @@ $ mkdir micarpeta
 $ rm miarchivo.txt
 ```
 `rm -r descargas`
-##### 
-
 
 ##### wc (Cuenta las lineas, palabras y caracteres que contiene un archivo)
 ```bash
@@ -58,8 +56,11 @@ $ ls -lh
 
 #### tar/zip comprimir y descomprimir archivos
 `$ tar czvf nombrefichero.gz nombre de directorio a comprimir` c = comprimido
-`$ tar xzvf nombrefichero` x= descomprimir 
+
+`$ tar xzvf nombrefichero` x= descomprimir
+
 `$ zip -r nombre.zip lib archivo`
+
 `$ unzip nombrearchivo.zip` 
 
 ##### pw (Donde nos encontramos)
