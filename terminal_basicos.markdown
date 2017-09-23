@@ -7,10 +7,14 @@ Comandos básicos Linux
 ```bash
 $ mkdir micarpeta
 ```
-##### rm (borra un archivo)
+##### rm (borra un archivo o directorio)
 ```bash
 $ rm miarchivo.txt
 ```
+`rm -r descargas`
+##### 
+
+
 ##### wc (Cuenta las lineas, palabras y caracteres que contiene un archivo)
 ```bash
 $ wc archivo.txt
@@ -43,7 +47,20 @@ $ ls -lh
 
 `ls -a`: lista los contenidos de un directorio incluyendo los archivos ocultos
 
+##### chmod cambiar permisos
+`$ chmod +x` + para agregar permiso y x para permiso de ejecución
+`$ chmod -x` quitamos el permiso de ejecución
 
+##### ps procesos activos de un programa
+`$ ps aux`
+`$ ps aux | grep postgres` muestra procesos de postgres
+`$ kill #de proceso` elimina el proceso
+
+#### tar/zip comprimir y descomprimir archivos
+`$ tar czvf nombrefichero.gz nombre de directorio a comprimir` c = comprimido
+`$ tar xzvf nombrefichero` x= descomprimir 
+`$ zip -r nombre.zip lib archivo`
+`$ unzip nombrearchivo.zip` 
 
 ##### pw (Donde nos encontramos)
 ```bash
@@ -52,13 +69,15 @@ $ pwd
 
 ##### mv (mover archivos en el directorio)
 ```bash
-$ mv imagen.png ../
+$ mv micarpeta ../
 ```
 
 ##### cp (copiar archivos)
 ```bash
-$ cp archivo ./ruta
+$ cp origen ./destino
 ```
+copiar directorios `cp -r`
+
 ##### cat (parecido al more)
 ```bash
 $ cat archivo.txt
@@ -103,6 +122,10 @@ $ cat archivo.py |grep palabra
 ```bash
 $ grep palabra archivo.php -n
 ```
+##### Descargar archivos
+`wget https://www.ejemplos.com/video.mp4` 
+
+
 cURL peticiones GET, POST
 -------------------------
 ##### curl (peticiones HTTP/S)
