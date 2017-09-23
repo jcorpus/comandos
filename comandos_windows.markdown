@@ -15,3 +15,12 @@ Comandos Windows
 
 `taskkill /F /IM notepad.exe` termina de manera forzada con los procesos.
 
+**Conexión FTP**
+
+`ftp` en el cmd
+
+`open ftp.opera.com` ingresamos con usuario anonymous
+
+`literal stat` para conocer la ip pública
+
+
