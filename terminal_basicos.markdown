@@ -149,8 +149,9 @@ $ curl "https://httpbin.org/get?variable=hola"
 ```bash
 $ curl --data "nombre=julio&apellido=corpus" http://httpbin.org/post
 ```
-**Copiar archivos local a destino remoto
-****copiar toodos los archivos de un directorio recursivamente
+**Copiar archivos local a destino remoto**
+
+##### copiar toodos los archivos de un directorio recursivamente
 ```bash
 $ sudo scp -r /home/user/html/* root@192.132.23.198:/var/www/html
 ```
