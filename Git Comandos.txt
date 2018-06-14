@@ -1,0 +1,76 @@
+Configuracion (Una unica vez)
+-git config --global user.name "Nombre"
+-git config --global user.email "Correo"
+-git config --global -l (mostrar las configuraciones)
+
+
+-git init
+-git status
+-git add .
+-git commit -m "mensaje"
+-git diff (para ver los cambios que se hicieron)
+-git checkout .(revertir los cambios)
+
+
+Poner alias a los comandos
+-git config --global alias.nombre "log"
+-git nombre ( te mostrar el comando log de commit)
+
+Corregir un commit
+-git commit --amend -m "mensaje nuevo"
+
+Comandos GIT
+
+-(git init)Para iniciar git en nuestro proyecto 
+-(git clone *LINK*) Para clonar o bajar el repositorio a la pc
+-(git remote add origin *link*)Git ya sabe que el proyecto local con github estan conectados
+-(git remote -v) para ver que esta conectado
+-(git remote remove origin) para eliminar la conexion remota
+-(git merge origin/master) Actualizar los archivos del repositorio al local (pc)
+-(git status) para ver como esta nuestro proyecto y los cambios
+-(git log > commits.txt ) generar un archivo commits.txt con todos los commits
+
+
+VIAJAR ENTRE VERSIONES O COMMIT
+-(git log) para mostrar los commit y copiar el codigo del commit
+-(git checkout *codigo del commit*) para actualizar el proyecto a otra version
+-(git checkout master) para actualizar el proyecto a la ULTIMA version
+
+FUSIONAR RAMAS
+-(git checkout master) 
+-(git merge *nombre*) rama nombre que vamos a absorver
+-(git push origin master) y subir el cambio
+
+SUBIR 
+-(git add *index.html*) si solo queremos subir un archivo
+-(git add -A) guardar lo que hicimos
+-(git commit -m "mensaje") para comentar nuestro avanze 
+-(git push origin master) subir o pasar los cambios y commits de la pc a github de la rama master
+
+
+RAMAS 
+
+-(git branch) mostrar las ramas 
+-(git branch -D *nombre*) ELIMINAR RAMA DEL NOMBRE
+-(git branch *nombre*) CREAR NUEVA RAMA 
+-(git checkout *nombre) Para moverse a la otra rama nombre
+-(git checkout -b *nombrederama*) Para crear y moverse a la rama creada
+
+
+
+OTRA FORMA DE CONECTARSE Y SUBIR AL REPOSITORIO
+git init
+git add .
+git commit -m "primer commit"
+git remote add origin *link*
+git push -u origin master
+
+
+SI ENTRA AL EDITO DE TEXTO VIM 
+primero presion :   i 
+luego el texto : ........
+Presion :   Esc
+luego :   :wq
+
+
+
